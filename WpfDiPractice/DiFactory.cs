@@ -2,10 +2,10 @@ using System.Windows;
 using System.Windows.Controls;
 using GalaSoft.MvvmLight;
 using Microsoft.Extensions.DependencyInjection;
-using WpfApp2.View;
-using WpfApp2.ViewModel;
+using WpfDiPractice.View;
+using WpfDiPractice.ViewModel;
 
-namespace WpfApp2
+namespace WpfDiPractice
 {
     public class DiFactory
     {

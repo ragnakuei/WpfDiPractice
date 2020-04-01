@@ -1,12 +1,13 @@
-﻿<Window x:Class="WpfApp2.MainWindow"
+﻿<Window x:Class="WpfDiPractice.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp2"
-        xmlns:view="clr-namespace:WpfApp2.View"
-        xmlns:viewModel="clr-namespace:WpfApp2.ViewModel"
-        d:DataContext="{d:DesignInstance local:MainWindowViewModel,
+        xmlns:local="clr-namespace:WpfDiPractice"
+        xmlns:viewModel="clr-namespace:WpfDiPractice.ViewModel"
+        xmlns:view="clr-namespace:WpfDiPractice.View"
+        xmlns:wpfDiPractice="clr-namespace:WpfDiPractice"
+        d:DataContext="{d:DesignInstance wpfDiPractice:MainWindowViewModel,
                                          IsDesignTimeCreatable=True}"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
